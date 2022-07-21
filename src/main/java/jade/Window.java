@@ -20,7 +20,7 @@ public class Window {
     private Window() {
         this.width = 1920;
         this.height = 1080;
-        this.title = "Rahil Run";
+        this.title = "Running Rahil";
         r = 1;
         b = 1;
         g = 1;
