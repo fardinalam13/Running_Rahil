@@ -160,6 +160,7 @@ public class ImGuiLayer {
         // ------------------------------------------------------------
         // Use freetype instead of stb_truetype to build a fonts texture
         ImGuiFreeType.buildFontAtlas(fontAtlas, ImGuiFreeType.RasterizerFlags.LightHinting);
+
         // Method initializes LWJGL3 renderer.
         // This method SHOULD be called after you've initialized your ImGui configuration (fonts and so on).
         // ImGui context should be created as well.
