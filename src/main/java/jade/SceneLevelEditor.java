@@ -1,11 +1,11 @@
-package jade;
+package scenes;
 
-import components.Rigidbody;
-import components.Sprite;
-import components.SpriteRenderer;
-import components.Spritesheet;
+import components.*;
 import imgui.ImGui;
 import imgui.ImVec2;
+import jade.Camera;
+import jade.GameObject;
+import jade.Transform;
 import org.joml.Vector2f;
 import org.joml.Vector4f;
 import util.AssetPool;
@@ -16,6 +16,7 @@ public class SceneLevelEditor extends Scene {
     private Spritesheet sprites;
     SpriteRenderer obj1Sprite;
 
+    MouseControls mouseControls = new MouseControls();
 
     public SceneLevelEditor() {
 
